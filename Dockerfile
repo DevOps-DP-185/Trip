@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 ENV TZ=Europe/Kiev \
     TOMCAT=apache-tomcat-9.0.34 \
-    APP=kick-scooter-payment.war \
+    APP=kick-scooter-trip.war \
     CONF=server.xml   
 RUN apt-get update && \
     apt-get install wget default-jdk -y -y && \
