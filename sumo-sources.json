@@ -3,7 +3,7 @@
   "source":{
      "sourceType":"LocalFile",
      "name":"trip",
-     "pathExpression":"/var/log/trip/spring.log",
+     "pathExpression":"/opt/tomcat/logs/**",
      "blacklist":[]
   }
 }
